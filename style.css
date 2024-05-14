@@ -26,7 +26,7 @@
 .banner .header {
   font-size: 55px;
   font-weight: bolder;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 .banner .paragragh {
   margin-bottom: 10px;
@@ -36,7 +36,7 @@
   background-color: rgb(0, 128, 163);
   text-decoration: none;
   color: white;
-  padding: 15px;
+  padding: 16px;
   border-radius: 5%;
   font-size: small;
   margin-top: 15px;
@@ -56,7 +56,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 70px;
-  padding-top: 30px;
+  padding-top: 31px;
   font-family: "satchie", Source Sans3;
 }
 .about .kile1 {
