@@ -56,11 +56,11 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 70px;
-  padding-top: 31px;
+  padding-top: 32px;
   font-family: "satchie", Source Sans3;
 }
 .about .kile1 {
-  margin-left: 12px;
+  margin-left: 13px;
   display: inline-block;
   width: 95px;
   font-weight: bold;
@@ -75,7 +75,7 @@
 .para {
   margin-bottom: 15px;
   font-weight: lighter;
-  padding: 8px;
+  padding: 9px;
 }
 
 .buttn {
@@ -91,7 +91,7 @@
   color: #1d809f;
   background-color: white;
   border-radius: 60%;
-  padding: 35px;
+  padding: 36px;
 }
 
 .icon {
