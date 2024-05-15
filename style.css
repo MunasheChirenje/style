@@ -552,6 +552,20 @@
     height: 39vh;
   }
 }
+@media only screen and (min-width: 1399.98px) {
+  .boxes .box1 {
+    height: 40vh;
+  }
+  .boxes .box2 {
+    height: 40vh;
+  }
+  .boxes .box3 {
+    height: 40vh;
+  }
+  .boxes .box4 {
+    height: 40vh;
+  }
+}
 * {
   margin: 0;
   padding: 0;
