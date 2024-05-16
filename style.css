@@ -414,13 +414,13 @@
   }
   .about .head {
     margin-left: 25px;
-    font-size: 14px;
+    font-size: 11px;
     width: 100%;
   }
   .about .para {
     padding: 5px;
     width: 290px;
-    font-size: 12px;
+    font-size: 9px;
     margin-top: 0px;
   }
   .about .button {
@@ -459,18 +459,22 @@
   .boxes .box1 {
     width: 330px;
     height: 40vh;
+    margin-bottom: 10px;
   }
   .boxes .box2 {
     width: 330px;
     height: 40vh;
+    margin-bottom: 10px;
   }
   .boxes .box3 {
     width: 330px;
     height: 40vh;
+    margin-bottom: 10px;
   }
   .boxes .box4 {
     width: 330px;
     height: 40vh;
+    margin-bottom: 10px;
   }
   .boxes .recent {
     font-size: 24px;
