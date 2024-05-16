@@ -416,12 +416,14 @@
     margin-left: 25px;
     font-size: 11px;
     width: 100%;
+    text-align: center;
   }
   .about .para {
     padding: 5px;
     width: 290px;
     font-size: 9px;
     margin-top: 0px;
+    text-align: center;
   }
   .about .button {
     padding: 12px;
