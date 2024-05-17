@@ -6,6 +6,10 @@
   font-family: "satchie";
   src: url("font/SourceSans3-Regular.ttf");
 }
+@font-face {
+  font-family: "moon";
+  src: url("font/SourceSans3-ExtraBold.ttf");
+}
 .body {
   overflow: hidden;
 }
@@ -16,7 +20,7 @@
   background-image: url(images/bg-masthead.jpg);
   height: 90vh;
   background-size: cover;
-  background-position: left center;
+  background-position: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,13 +28,16 @@
   font-family: "satchie", Source Sans3;
 }
 .banner .header {
-  font-size: 55px;
+  font-size: 72px;
   font-weight: bolder;
-  margin-bottom: 6px;
+  margin-bottom: -14px;
+  font-family: "moon", Source Sans3;
 }
 .banner .paragragh {
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 22px;
+  font-family: "moon", Source Sans3;
 }
 .banner .button {
   background-color: rgb(0, 128, 163);
@@ -38,15 +45,18 @@
   color: white;
   padding: 16px;
   border-radius: 5%;
-  font-size: small;
+  font-size: 16px;
   margin-top: 15px;
   font-weight: bold;
-  width: 10%;
+  width: 13%;
 }
 .banner .button .kile {
-  margin-left: 12px;
+  text-align: center;
   display: inline-block;
   width: 118px;
+}
+.banner .fa-bars {
+  background-color: rgba(52, 58, 64, 0.5019607843);
 }
 
 .about {
@@ -59,10 +69,13 @@
   padding-top: 32px;
   font-family: "satchie", Source Sans3;
 }
+.about .Unsplash {
+  color: #1d809f;
+}
 .about .kile1 {
-  margin-left: 13px;
+  text-align: center;
   display: inline-block;
-  width: 95px;
+  width: 125px;
   font-weight: bold;
 }
 
@@ -70,6 +83,7 @@
   padding-top: 60px;
   font-size: 28px;
   font-weight: bold;
+  font-family: "moon", Source Sans3;
 }
 
 .para {
@@ -101,6 +115,7 @@
 
 .P1 {
   font-weight: lighter;
+  color: #b5c1cb;
 }
 
 .mustache {
@@ -174,8 +189,9 @@
 }
 .Download .head2 {
   padding-bottom: 20px;
-  font-size: xx-large;
+  font-size: 50px;
   font-weight: bolder;
+  font-family: "moon", Source Sans3;
 }
 .Download .b1 {
   color: white;
@@ -209,7 +225,7 @@
   justify-content: center;
   align-items: center;
   font-size: 32px;
-  font-family: "satchie", Source Sans3;
+  font-family: "moon", Source Sans3;
   font-weight: bolder;
 }
 
@@ -287,7 +303,7 @@
 }
 .boxes h5 {
   margin-left: 30px;
-  font-family: "satchie", Source Sans3;
+  font-family: "moon", Source Sans3;
   font-size: 13px;
   font-weight: bolder;
   margin-bottom: 7px;
@@ -345,7 +361,7 @@
 }
 
 .image {
-  background-image: url(images/image.png);
+  background-image: url(images/Flexbox-Project.png);
   width: 100%;
   background-repeat: no-repeat;
   height: 70vh;
@@ -360,12 +376,11 @@
 }
 
 .icons {
-  color: #1d809f;
-  background-color: white;
-  border-radius: 80%;
   display: flex;
   text-align: center;
   justify-content: center;
+  padding-bottom: 45px;
+  padding-top: 45px;
 }
 
 .web {
@@ -378,19 +393,35 @@
 
 .facebook {
   margin: 10px;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  background-color: #1d809f;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
 }
 
 .twitter {
   margin: 10px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: end;
+  background-color: #1d809f;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
 }
 
 .github {
   margin: 10px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  text-align: center;
+  background-color: #1d809f;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
 }
 
 @media (max-width: 576px) {
@@ -558,6 +589,91 @@
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  .banner {
+    background-position: right;
+  }
+  .banner .header {
+    font-size: 92px;
+    margin-bottom: -14px;
+  }
+  .banner .paragragh {
+    font-size: 27px;
+  }
+  .banner .button {
+    padding: 23px;
+    font-size: 20px;
+    width: 13%;
+  }
+  .banner .button .kile {
+    text-align: center;
+  }
+  .about .head {
+    font-size: 36px;
+  }
+  .about .para {
+    font-size: 19px;
+  }
+  .about .buttn {
+    padding: 23px;
+    font-size: 21px;
+    width: 13%;
+  }
+  .about .buttn .kile1 {
+    text-align: center;
+  }
+  .Download .b1 {
+    color: white;
+    padding: 23px;
+    background-color: rgb(0, 128, 163);
+    text-align: center;
+    border-radius: 5%;
+    text-decoration: none;
+    font-size: 17px;
+    width: 170px;
+  }
+  .boxes {
+    padding-bottom: 120px;
+  }
+  .click {
+    padding: 120px;
+    padding-top: 90px;
+  }
+  .click .look {
+    display: inline-block;
+    padding: 22px;
+    width: 15%;
+    margin: 15px;
+    font-size: 18px;
+  }
+  .click .back {
+    display: inline-block;
+    padding: 22px;
+    width: 15%;
+    margin: 15px;
+    font-size: 18px;
+  }
+  .click .resist {
+    padding: 0px;
+    font-size: 35px;
+  }
+  .services .head1 {
+    font-size: 50px;
+  }
+  .services .para1 {
+    font-size: 18px;
+  }
+  .services .icon {
+    padding: 30px;
+  }
+  .services .icon .P1 {
+    color: #b5c1cb;
+  }
+  .recent {
+    font-size: 50px;
+  }
+  .para3 {
+    font-size: 18px;
+  }
   .boxes .box1 {
     height: 40vh;
   }
