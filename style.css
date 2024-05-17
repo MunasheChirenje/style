@@ -609,9 +609,18 @@
   }
   .banner .button {
     width: 17%;
+    height: 7vh;
+  }
+  .about .buttn {
+    width: 21%;
+    height: 7vh;
   }
   .Download {
     height: 54vh;
+  }
+  .Download .b1 {
+    height: 7vh;
+    width: 19%;
   }
   .boxes .box1 {
     height: 25vh;
@@ -628,6 +637,14 @@
   .boxes .box4 {
     height: 25vh;
     width: 300px;
+  }
+  .hup .back {
+    height: 7vh;
+    width: 37%;
+  }
+  .look {
+    height: 7vh;
+    width: 37%;
   }
   .image {
     height: 45vh;
