@@ -43,17 +43,18 @@
   background-color: rgb(0, 128, 163);
   text-decoration: none;
   color: white;
-  padding: 16px;
+  height: 9vh;
   border-radius: 5%;
   font-size: 16px;
   margin-top: 15px;
   font-weight: bold;
-  width: 13%;
+  width: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner .button .kile {
-  text-align: center;
   display: inline-block;
-  width: 118px;
 }
 .banner .fa-bars {
   background-color: rgba(52, 58, 64, 0.5019607843);
@@ -77,6 +78,10 @@
   display: inline-block;
   width: 125px;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .head {
@@ -94,11 +99,18 @@
 
 .buttn {
   background-color: #212539;
-  padding: 15px;
   color: white;
   border-radius: 5%;
   text-decoration: none;
-  font-size: small;
+  height: 9vh;
+  border-radius: 5%;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .material-symbols-outlined {
@@ -195,12 +207,19 @@
 }
 .Download .b1 {
   color: white;
-  padding: 15px;
   background-color: rgb(0, 128, 163);
   text-align: center;
   border-radius: 5%;
   text-decoration: none;
-  font-size: small;
+  height: 9vh;
+  border-radius: 5%;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .port {
@@ -317,6 +336,31 @@
   padding: 90px;
   padding-top: 50px;
   font-family: "satchie", Source Sans3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hup {
+  display: flex;
+  flex-direction: row;
+}
+.hup .back {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5%;
+  text-decoration: none;
+  font-weight: bolder;
+  height: 9vh;
+  border-radius: 5%;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resist {
@@ -325,39 +369,45 @@
   font-weight: bolder;
 }
 
-.back {
-  margin: 10px;
-  background-color: white;
-  color: black;
-  border-radius: 5%;
-  padding: 15px;
-  text-decoration: none;
-  font-size: small;
-  font-weight: bolder;
-}
-
 .kile3 {
-  margin-left: -7px;
   display: inline-block;
-  width: 90px;
+  margin-left: 5px;
+  display: inline-block;
+  width: 118px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .kile4 {
-  margin-left: -7px;
   display: inline-block;
-  width: 90px;
+  margin-left: 5px;
+  display: inline-block;
+  width: 118px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .look {
   margin: 10px;
   background-color: #212539;
-  padding: 15px;
   color: white;
   margin-bottom: auto;
   border-radius: 5%;
   text-decoration: none;
-  font-size: small;
   font-weight: bolder;
+  height: 9vh;
+  border-radius: 5%;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
@@ -398,8 +448,8 @@
   justify-content: center;
   background-color: #1d809f;
   border-radius: 50%;
-  height: 90px;
-  width: 90px;
+  height: 75px;
+  width: 75px;
 }
 
 .twitter {
@@ -409,8 +459,8 @@
   justify-content: center;
   background-color: #1d809f;
   border-radius: 50%;
-  height: 90px;
-  width: 90px;
+  height: 75px;
+  width: 75px;
 }
 
 .github {
@@ -420,8 +470,8 @@
   justify-content: center;
   background-color: #1d809f;
   border-radius: 50%;
-  height: 90px;
-  width: 90px;
+  height: 75px;
+  width: 75px;
 }
 
 @media (max-width: 576px) {
@@ -434,8 +484,13 @@
     font-size: 30px;
   }
   .banner .button {
-    padding: 13px;
-    width: 34%;
+    width: 32%;
+    height: 7vh;
+    margin-top: 5px;
+  }
+  .banner .paragragh {
+    margin-top: 12px;
+    font-size: 10px;
   }
   .about {
     display: flex;
@@ -455,8 +510,9 @@
     margin-top: 0px;
     text-align: center;
   }
-  .about .button {
-    padding: 12px;
+  .about .buttn {
+    width: 35%;
+    height: 7vh;
   }
   .services .servicescontainer {
     display: flex;
@@ -472,7 +528,8 @@
     font-size: 24px;
   }
   .Download .b1 {
-    padding: 12px;
+    height: 7vh;
+    width: 35%;
   }
   .recent {
     font-size: 25px;
@@ -521,11 +578,29 @@
   .resist {
     font-size: 18px;
   }
-  .back {
-    padding: 10px;
+  .hup .back {
+    height: 7vh;
+    width: 35%;
   }
   .look {
-    padding: 10px;
+    height: 7vh;
+    width: 35%;
+  }
+  .icons {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .facebook {
+    width: 60px;
+    height: 60px;
+  }
+  .twitter {
+    width: 60px;
+    height: 60px;
+  }
+  .github {
+    width: 60px;
+    height: 60px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -600,12 +675,17 @@
     font-size: 27px;
   }
   .banner .button {
-    padding: 23px;
+    height: 9vh;
     font-size: 20px;
-    width: 13%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .banner .button .kile {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .about .head {
     font-size: 36px;
@@ -623,13 +703,16 @@
   }
   .Download .b1 {
     color: white;
-    padding: 23px;
     background-color: rgb(0, 128, 163);
     text-align: center;
     border-radius: 5%;
     text-decoration: none;
     font-size: 17px;
-    width: 170px;
+    width: 12%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .boxes {
     padding-bottom: 120px;
@@ -641,14 +724,14 @@
   .click .look {
     display: inline-block;
     padding: 22px;
-    width: 15%;
+    width: 40%;
     margin: 15px;
     font-size: 18px;
   }
   .click .back {
     display: inline-block;
     padding: 22px;
-    width: 15%;
+    width: 40%;
     margin: 15px;
     font-size: 18px;
   }
