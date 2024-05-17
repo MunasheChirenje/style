@@ -918,11 +918,24 @@ width: 75px;
 
       .button{
         width: 13%;
+        height: 5vh;
       }
+  }
+
+  .about{
+
+    .buttn{
+      height: 5vh;
+    }
   }
 
   .Download{
     height: 50vh;
+
+    .b1{
+      height: 5vh;
+      width: 13%;
+    }
   }
 
   .boxes{
@@ -947,6 +960,16 @@ width: 75px;
       height: 20vh;
       width: 400px;
     }
+  }
+
+  .hup{
+    .back{
+      height: 5vh;
+    }
+  }
+
+  .look{
+    height: 5vh;
   }
 
   .image{
